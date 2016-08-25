@@ -22,7 +22,7 @@ sudo php5enmod mcrypt
 sudo a2enmod rewrite
 
 rm -rf /var/www/html
-ln -fs /vagrant /var/www/html
+ln -fs /vagrant/magento2 /var/www/html
 
 sudo service apache2 restart
 
